@@ -45,7 +45,7 @@ console.log(typeof(id));
 console.log(typeof(user));
 console.log(typeof(active));
 
-
+console.log(`\n`);
 
 // ******************************** Questoin five ***************************************
 let name = "Rech";
@@ -53,6 +53,7 @@ let age = 24;
 
 console.log(`My name is `, name);
 console.log(`and I am `, age, `years old \n`);
+
 
 
 
@@ -65,7 +66,7 @@ console.log(50 / 5); //division
 console.log(5 ** 2); //exponent/power 
 console.log(15 - (2 + 7)); //brackets
 
-
+console.log(`\n`);
 
 
 // ******************************** Questoin seven ***************************************
@@ -74,6 +75,8 @@ let on = true;
 let playing = false;
 console.log(on == true);
 console.log(playing == true);
+console.log(`\n`);
+
 
 
 
@@ -81,4 +84,32 @@ console.log(playing == true);
 // undefined and null values 
 
 let person1;            // this is undefined
+let location = null; //this is null value
+console.log(person1 === location);
+console.log(`\n`);
+
+
+
+
+console.log(typeof(person1));
+
+
+// ******************************** Questoin nine ***************************************
+// use of typeof 
+let datas = "Ayiik";
+let year_s = 5;
+let userz;
+let ids = null;
+let actives = true;
+console.log(typeof(datas));
+console.log(typeof(year_s));
+console.log(typeof(ids));
+console.log(typeof(userz));
+console.log(typeof(actives));
+
+// ******************************** Questoin ten ***************************************
+// console.log() has been used above multiple times
+const ans = 7;
+console.log('ans');
+// this prints string "ans" rather than number and can be viewed bu logging method to check error
 
